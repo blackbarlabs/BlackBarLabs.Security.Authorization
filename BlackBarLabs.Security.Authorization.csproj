@@ -45,6 +45,7 @@
     <Compile Include="CredentialsType.cs" />
     <Compile Include="CredentialValidationMethodTypes.cs" />
     <Compile Include="IAuthorization.cs" />
+    <Compile Include="ISession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
