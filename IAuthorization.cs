@@ -10,8 +10,5 @@ namespace BlackBarLabs.Security.Authorization
 
         [DataMember]
         CredentialsType[] CredentialProviders { get; set; }
-
-        [DataMember]
-        Uri [] ClaimsProviders { get; set; }
     }
 }

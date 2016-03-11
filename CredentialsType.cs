@@ -20,6 +20,9 @@ namespace BlackBarLabs.Security.Authorization
         [DataMember]
         public string Token { get; set; }
 
+        [DataMember]
+        public Uri[] ClaimsProviders { get; set; }
+
         #endregion
 
         public bool IsPopulated()
