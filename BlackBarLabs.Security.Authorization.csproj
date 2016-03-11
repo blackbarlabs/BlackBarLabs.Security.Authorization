@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AuthHeaderProps.cs" />
+    <Compile Include="IClaim.cs" />
     <Compile Include="CredentialsType.cs" />
     <Compile Include="CredentialValidationMethodTypes.cs" />
     <Compile Include="IAuthorization.cs" />
