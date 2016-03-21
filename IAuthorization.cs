@@ -9,6 +9,6 @@ namespace BlackBarLabs.Security.Authorization
         Guid Id { get; set; }
 
         [DataMember]
-        CredentialsType[] CredentialProviders { get; set; }
+        Uri[] CredentialProviders { get; set; }
     }
 }

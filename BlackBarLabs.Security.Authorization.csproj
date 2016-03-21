@@ -46,6 +46,7 @@
     <Compile Include="CredentialsType.cs" />
     <Compile Include="CredentialValidationMethodTypes.cs" />
     <Compile Include="IAuthorization.cs" />
+    <Compile Include="ICredential.cs" />
     <Compile Include="ISession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

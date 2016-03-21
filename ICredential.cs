@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace BlackBarLabs.Security.Authorization
 {
-    public interface ISession
+    public interface ICredential
     {
         [DataMember]
-        Guid Id { get; set; }
-
-        [IgnoreDataMember]
-        Guid AuthorizationId { get; set; }
+        CredentialValidationMethodTypes Method { get; set; }
 
         [DataMember]
-        AuthHeaderProps SessionHeader { get; set; }
+        Uri Provider { get; set; }
 
         [DataMember]
-        ICredential Credentials { get; set; }
+        string UserId { get; set; }
 
         [DataMember]
-        string RefreshToken { get; set; }
+        string Token { get; set; }
+
+        [DataMember]
+        Uri[] ClaimsProviders { get; set; }
     }
 }
