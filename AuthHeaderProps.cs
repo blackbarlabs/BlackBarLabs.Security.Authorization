@@ -12,7 +12,7 @@ namespace BlackBarLabs.Security.Authorization
     {
         public static class HeaderKeys
         {
-            public const string JWTToken = "authorization";
+            public const string JWTToken = "Authorization";
         }
 
         #region Properties
