@@ -19,8 +19,5 @@ namespace BlackBarLabs.Security.Authorization
 
         [DataMember]
         string Token { get; set; }
-
-        [DataMember]
-        Uri[] ClaimsProviders { get; set; }
     }
 }
